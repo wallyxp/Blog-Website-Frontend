@@ -1,8 +1,8 @@
 import React from 'react'
 import './home.css'
-import Header from '../../header/Header'
-import Posts from '../../posts/Posts'
-import SIdebar from '../../sidebar/SIdebar'
+import Header from '../../components/header/Header'
+import Posts from '../../components/posts/Posts'
+import SIdebar from '../../components/sidebar/SIdebar'
 
 export default function Home() {
   return (
