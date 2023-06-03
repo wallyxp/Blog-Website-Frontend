@@ -9,7 +9,7 @@ export default function Login() {
             <label>Email</label>
             <input type="text" placeholder='Enter your email' className='loginInput'/>
             <label>Password</label>
-            <input type="password" placeholder='Enter your email' className='loginInput'/>
+            <input type="password" placeholder='Enter your password' className='loginInput'/>
             <button className='loginButton'>Login</button>
         </form>
         <button className='loginRegisterButton'>Register</button>
