@@ -1,7 +1,9 @@
 import React from 'react'
 import './login.css'
+import { useNavigate } from 'react-router-dom'
 
 export default function Login() {
+  let navigate = useNavigate();
   return (
     <div className='login'>
         <span className="loginTitle">Login</span>
@@ -12,7 +14,9 @@ export default function Login() {
             <input type="password" placeholder='Enter your password' className='loginInput'/>
             <button className='loginButton'>Login</button>
         </form>
-        <button className='loginRegisterButton'>Register</button>
+        <button className='loginRegisterButton' onClick={()=>{
+          navigate("/register")
+        }}>Register</button>
     </div>
   )
 }

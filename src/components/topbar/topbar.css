@@ -54,3 +54,7 @@
     cursor: pointer;
     margin-left: 15px;
 }
+
+.link{
+    text-decoration: none;
+}
